@@ -1,0 +1,15 @@
+ComfyUI NormalCrafter Clean
+
+This project contains an inference-only adaptation of ideas and small portions of
+code structure from:
+
+1. NormalCrafter by Yanrui Bin et al.
+   https://github.com/Binyr/NormalCrafter
+   Licensed under the MIT License.
+
+2. Hugging Face Diffusers, including the Stable Video Diffusion pipeline and
+   UNetSpatioTemporalConditionModel execution structure.
+   https://github.com/huggingface/diffusers
+   Licensed under the Apache License, Version 2.0.
+
+No model weights are redistributed by this package.
