@@ -72,3 +72,14 @@ The source is syntax-checked and the pure window scheduler has unit tests. It ha
 ## Attribution
 
 NormalCrafter research code: MIT License. Hugging Face Diffusers-derived UNet execution structure: Apache License 2.0. See `NOTICE`.
+
+## Commented edition
+
+This archive is the documentation-heavy edition of the clean implementation.
+Executable statements were checked for AST equivalence against the working build;
+only comments, docstrings, and `ARCHITECTURE.md` were added. Start with:
+
+1. `ARCHITECTURE.md` for the complete runtime and ownership model;
+2. `nodes.py` for the ComfyUI-facing surface;
+3. `normalcrafter_clean/engine.py` for the inference pipeline;
+4. `preprocess.py`, `windows.py`, and `unet.py` for the isolated subsystems.
